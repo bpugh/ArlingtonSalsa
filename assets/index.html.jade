@@ -1,22 +1,6 @@
 extends layout
 
 block content
-  div.navbar.navbar-inverse.navbar-fixed-top
-    div.container
-      div.navbar-header
-        button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
-          span.icon-bar
-          span.icon-bar
-          span.icon-bar
-        a.navbar-brand(href='#') Project Name
-      div.navbar-collapse.collapse
-        ul.nav.navbar-nav
-          li.active
-            a(href='#') Home
-          li
-            a(href='#') About
-          li
-            a(href='#') Contact
 
   div.jumbotron
     div.container
@@ -26,5 +10,3 @@ block content
       p
         a.btn.btn-primary.btn-lg Learn More &raquo;
   p Welcome to Arlington Salsa.com
-  if optimize
-    p Optimized mode.  You are getting a single RequireJS optimized JavaScript file which includes all the page dependencies.
